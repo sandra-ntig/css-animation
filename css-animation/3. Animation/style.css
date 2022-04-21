@@ -1,0 +1,30 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    background-image: linear-gradient(
+      45deg,
+      #fa8bff 0%,
+      #2bd2ff 52%,
+      #2bff88 90%
+    );
+   /*animation: demo 3s 300ms infinite;*/
+  }
+  
+  .box:hover {
+    /*animation-play-state: paused;*/
+  }
+  
+  /* Definerar vad som ska ändras i animation vid viss % av förloppet*/
+  @keyframes demo {
+    0% {
+    
+  
+    }
+   
+    100% {
+       
+     
+    }
+  }
+  

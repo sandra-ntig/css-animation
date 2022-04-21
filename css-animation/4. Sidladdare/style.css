@@ -1,0 +1,46 @@
+/* Färger 
+#1abc9c
+#3498db
+#2ecc71
+#3498db
+#9b59b6
+*/
+
+.container {
+    margin: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: Helvetica, Sans-serif;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  .loader {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 16px solid #bdc3c7;
+    width: 100px;
+    height: 100px;
+    /*animation: spin 2s linear infinite;*/
+  
+  }
+  
+  @keyframes spin {
+      0% {
+       
+      }
+     
+      100% {
+     
+      }
+      
+  }
+  
+ 
+  

@@ -1,0 +1,26 @@
+button {
+    border: 2px solid orangered;
+    background-color: #fff;
+    color: #000;
+    font-size: 2rem;
+    padding: 1em 2em; 
+    margin: 80px;
+    
+    /*transition-property - Vilken egenskap ska inluderas i övergången? (width, height, opacity, all, etc)*/
+   
+    /*transition-duration - Hur lång tid övergången tar (ms, s)*/
+    
+    /*transition-timing-function - Kurva hur övergången sker - linjärt, snabbt->långsamt, egen funktion med cubic-bezier osv.*/
+   
+    /*transition-delay Fördröjning för övergånen (ms, s) */
+   
+    /* Shorthand */
+    /*transition: all 1s ease-in 300ms;*/
+  
+  }
+  
+  /* Det som ändras när musen är över elementet*/
+  button:hover {
+    background-color: orangered;
+    color: #fff;
+  }
